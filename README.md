@@ -1,1 +1,1 @@
-# DSA-Leetcode-GFG
+# Leetcode-GFG
