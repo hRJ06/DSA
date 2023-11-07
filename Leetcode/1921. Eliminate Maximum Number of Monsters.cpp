@@ -1,9 +1,9 @@
 class Solution {
 public:
     int eliminateMaximum(vector<int>& dist, vector<int>& speed) {
-        int n = dist.size(), ans = 0;
+        int n = dist.size();
         vector<double> v(n);
-        for(int i = 0;  i<n; i++)
+        for(int i = 0; i<n; i++)
             v[i]  = 1.0 * dist[i] / speed[i];
         sort(v.begin(),v.end());
         for(int i = 0; i<n; i++) {
