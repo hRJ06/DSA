@@ -4,7 +4,6 @@ class Solution:
         if head is None:
             return head
         cur = head
-        prev = None
         while cur is not None:
             next = cur.next
             cur.next = cur.prev
