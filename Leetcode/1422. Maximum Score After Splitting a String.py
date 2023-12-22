@@ -14,6 +14,4 @@ class Solution:
                 zero -= 1
             score = max(score,zero + one)
         return score
-            
-        
     
